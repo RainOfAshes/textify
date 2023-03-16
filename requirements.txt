@@ -1,0 +1,8 @@
+nltk~=3.8.1
+PyArabic~=0.6.15
+num2words~=0.5.12
+joblib~=1.2.0
+pyyaml~=6.0
+fastapi~=0.94.1
+uvicorn~=0.21.0
+pydantic~=1.10.6
