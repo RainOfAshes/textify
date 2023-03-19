@@ -49,7 +49,7 @@ class TextCleaner:
         return self.spaces_processor(output)
 
 
-def load_cleaner(configs_file: str = r"configs/configs.yaml") -> TextCleaner:
+def load_cleaner(configs_file: str = r"configs/cleaner_configs.yaml") -> TextCleaner:
     with open(configs_file, 'r') as f:
         configs = yaml.safe_load(f)['cleaner_configs']
 

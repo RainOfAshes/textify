@@ -64,7 +64,7 @@ class TextProcessingServer:
 
 
 def load_server(cleaner: Callable,
-                configs_file: str = r"configs/configs.yaml") -> TextProcessingServer:
+                configs_file: str = r"configs/cleaner_configs.yaml") -> TextProcessingServer:
     with open(configs_file, "r") as f:
         configs = yaml.safe_load(f)['server_configs']
     return TextProcessingServer(cleaner=cleaner, **configs)
